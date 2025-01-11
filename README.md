@@ -1,1 +1,2 @@
-# stm32f303-project-template
+# pulse counter
+タイマーのエンコーダモードを使ってエンコーダのパルスをカウントする
