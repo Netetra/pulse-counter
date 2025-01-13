@@ -363,6 +363,18 @@ dependencies = [
 ]
 
 [[package]]
+name = "pulse-counter"
+version = "0.1.0"
+dependencies = [
+ "cortex-m",
+ "cortex-m-rt",
+ "defmt",
+ "defmt-rtt",
+ "panic-probe",
+ "stm32f3xx-hal",
+]
+
+[[package]]
 name = "quote"
 version = "1.0.38"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -437,18 +449,6 @@ dependencies = [
  "cortex-m",
  "cortex-m-rt",
  "vcell",
-]
-
-[[package]]
-name = "stm32f303-project-template"
-version = "0.1.0"
-dependencies = [
- "cortex-m",
- "cortex-m-rt",
- "defmt",
- "defmt-rtt",
- "panic-probe",
- "stm32f3xx-hal",
 ]
 
 [[package]]
